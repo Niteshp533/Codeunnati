@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- untitled colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="colorBlack">#000</color>
+	<color name="colorWhite">#fff</color>
+	<color name="colorGray">#e4e4e4</color>
+	<color name="colorGray1">#C0B6B6</color>
+	<color name="_bg__detail_recipe_ek2_color">#FFFFFF</color>
+	<color name="_1s_oil_color">#2D3D5C</color>
+	<color name="your_recipe_has_been_uploaded__you_can_see_it_on_your_profile__your_recipe_has_been_uploaded__you_can_see_it_on_your_color">#9FA5C0</color>
+	<color name="line_spacing_color">#D0DAE9</color>
+	<color name="cacao_maca_walnut_milk_color">#3D5480</color>
+	<color name="home_indicator_ek2_color">#E3E3E3</color>
+	<color name="_bg__cover_ek2_color">#200E32</color>
+	<color name="start_tracking_color">#FFFFFF</color>
+	<color name="choice">#9FA5C0</color>
+	<color name="ellipse_2_3_color">#2CD992</color>
+	<color name="_ellipse_2_4_color">#DBDBDB</color>
+	<color name="login_color">#2D3D5C</color>
+	<color name="home_indicator_color">#E3E3E3</color>
+	<color name="border_color">#ffffff</color>
+	<color name="_sign_up_ek2_color">#1FCC79</color>
+	<color name="please_enter_your_account_here_color">#F4F5F7</color>
+	<color name="capacity_ek1_color">#000000</color>
+	<color name="male_color">#C4C4C4</color>
+	<color name="select">#3D5480</color>
+	<color name="_bg__homepage_ek2_color">#FBFDFF</color>
+	<color name="rectangle_2_color">#D2D2D2</color>
+	<color name="rectangle_2_18_color">#FFFEFE</color>
+	<color name="deny_color">#1DB576</color>
+	<color name="tabs___indicator_color">#D0DAE9</color>
+	<color name="__tayshelby_color">#9FA3A8</color>
+	<color name="rectangle_2_ek2_color">#898A8D</color>
+	<color name="capacity_ek6_color">#FCFCFE</color>
+	<color name="_bg__onboarding_2___track_nutrients_ek2_color">#230B34</color>
+	<color name="change_profile_photo_color">#2749E7</color>
+	<color name="_bg__upload_recipe_step_2_ek2_color">#FFFFFF</color>
+	<color name="_2_2_color">#3D5480</color>
+	<color name="__up_to_12_mb__color">#9FA5C0</color>
+	<color name="overlay_color">#000000</color>
+	<color name="your_recipe_has_been_uploaded__you_can_see_it_on_your_profile_color">#2D3D5C</color>
+	<color name="rectangle_197_color">#C4C4C4</color>
+	<color name="cancel_color">#FF6363</color>
+	<color name="spacing_color">#F4F5F7</color>
+	<color name="home_indicator_ek3_color">#E3E3E3</color>
+	<color name="_bg__primary___small_ek9_color">#1FCC79</color>
+</resources>

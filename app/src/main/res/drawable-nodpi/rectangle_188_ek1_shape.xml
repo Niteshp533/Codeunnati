@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rectangle_188_ek1 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<corners android:radius="16dp" />
+	<stroke android:color="#d0dbea" android:width="2dp" />
+	<solid android:color="@color/_bg__upload_recipe_step_2_ek2_color" />
+</shape>
+

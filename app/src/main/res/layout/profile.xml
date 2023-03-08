@@ -1,0 +1,289 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/my_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+            <ScrollView android:id="@+id/scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <RelativeLayout android:id="@+id/cont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_marginTop="406dp">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recipeList"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:layout_editor_absoluteX="10dp"
+                            tools:layout_editor_absoluteY="10dp" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:layout_marginTop="406dp">
+                        <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/favList"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                tools:layout_editor_absoluteX="10dp"
+                                tools:layout_editor_absoluteY="10dp"
+                                android:visibility="invisible"
+                            />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView android:id="@+id/__tayshelby_ek2"
+                android:textSize="16sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/__tayshelby_color"
+                android:layout_marginTop="251dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                />
+
+                <View android:id="@+id/spacing"
+                    android:background="@drawable/spacing_shape"
+                    android:layout_marginTop="284dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+
+                <RelativeLayout android:id="@+id/tab"
+                    android:layout_marginTop="330dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <RelativeLayout android:id="@+id/tab_ek1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RelativeLayout android:id="@+id/tab___indicator"
+                            android:layout_marginTop="36dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <View android:id="@+id/tabs___indicator"
+                                android:background="@drawable/tabs___indicator_shape"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout android:id="@+id/tab___active"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            >
+                            <Button android:id="@+id/recipes"
+                                android:background="#ffffff"
+                                android:textSize="16sp"
+                                android:textColor="@color/select"
+                                android:layout_marginTop="-14dp"
+                                android:layout_marginLeft="67dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="RECIPES"
+                                android:textStyle="bold"
+                                />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout android:id="@+id/tab___default"
+                            android:layout_marginRight="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true">
+
+                            <Button android:id="@+id/FavoriteButton"
+                                android:background="#ffffff"
+                                android:textSize="16sp"
+                                android:textColor="@color/choice"
+                                android:layout_marginTop="-14dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Favorites"
+                                android:textStyle="bold"
+                                />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            <TextView android:id="@+id/name"
+                android:textSize="17sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:layout_marginTop="224dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="girl name"
+                />
+
+
+                <RelativeLayout android:id="@+id/group__ek3"
+                    android:layout_marginTop="-78dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View android:id="@+id/rectangle_2_16_ek5"
+                        android:background="@drawable/rectangle_2_16_ek5_shape"
+                        android:layout_marginTop="71dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="166.76dp" />
+
+                    <ImageButton android:id="@+id/edit11"
+                        android:src="@drawable/ic_edit"
+                        android:layout_marginLeft="260dp"
+                        android:layout_marginTop="303dp"
+                        android:layout_width="15.43dp"
+                        android:layout_height="15.43dp" />
+
+
+
+                    <ImageButton android:id="@+id/_list_1"
+                        android:src="@drawable/ic_logout"
+                        android:layout_width="45dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="100dp"
+                        android:background="@null"/>
+                    <TextView
+                        android:id="@+id/logout22"
+                        android:text="Log Out"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="245dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+                        android:id="@+id/avatar"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="137dp"
+                        android:layout_marginTop="178dp"
+                        android:src="@drawable/ic_logout"
+                        app:c_background_color="@color/colorGray1"
+                        app:c_border="true"
+                        app:c_border_color="@color/colorGray1"
+                        app:c_border_width="1dp" />
+
+                </RelativeLayout>
+        </RelativeLayout>
+            </ScrollView>
+
+            <RelativeLayout android:id="@+id/navigation_bar_ek2"
+                android:layout_marginTop="800dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#ffffff"
+                >
+
+                <RelativeLayout android:id="@+id/iconly_bold_home_ek2"
+                    android:layout_marginStart="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="15dp">
+
+
+                    <RelativeLayout android:id="@+id/home_ek10"
+                        android:layout_marginTop="2.5dp"
+                        android:layout_marginStart="3.13dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3.13dp">
+
+                        <ImageButton android:id="@+id/home_ek11"
+                            android:src="@drawable/home_ek11"
+                            android:contentDescription="home_ek11"
+                            android:layout_width="23.75dp"
+                            android:layout_height="30dp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/group_2_ek11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="162dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true">
+
+                    <Button
+                        android:id="@+id/ellipse_ek22"
+                        android:layout_width="25.45dp"
+                        android:layout_height="24.04dp"
+                        android:background="@drawable/ellipse_ek22_shape" />
+
+                    <View android:id="@+id/rectangle_2_ek4"
+                        android:background="@drawable/rectangle_2_ek4_shape"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_width="2.9dp"
+                        android:layout_height="9.11dp"
+                        android:layout_marginLeft="19dp" />
+
+                </RelativeLayout>
+
+                <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+                    android:id="@+id/profile1"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/ic_logout"
+                    app:c_border="true"
+                    app:c_border_color="@color/colorGray1"
+                    app:c_border_width="1dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
