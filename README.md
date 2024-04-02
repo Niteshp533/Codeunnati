@@ -1,2 +1,0 @@
-# NutriScore
-An app that uses deep learning algorithms to see nutrient values of food using camera can help users track their food intake and make healthier choices. The app can use AI using deep neural networks (DNN) and algorithms like YOLOV3 to automatically recognize food items and dishes and calculate nutrients values using an image-based approach. This way, users can easily track their food intake and make healthier choices.
