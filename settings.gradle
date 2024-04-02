@@ -1,3 +1,0 @@
-include ':openCVLibrary3413'
-include ':app'
-rootProject.name = "NutriScore"
